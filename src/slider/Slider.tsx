@@ -70,7 +70,7 @@ export default function Slider({ content, button, onClick }: SliderState) {
 
       if (pictureRightPosition > sliderRightPosition) {
         setTimeout(() => {
-          window.open("https://www.decathlon.ch/de/");
+          // onClick()
         }, 500);
       }
 
