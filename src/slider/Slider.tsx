@@ -3,8 +3,7 @@ import {
   getElementLeftPositionOnScreen,
   getElementRightPositionOnScreen,
 } from "./html.utils";
-import "./slider.style.scss"
-
+import "./slider.style.scss";
 
 interface SliderState {
   content: ReactElement;
@@ -71,7 +70,7 @@ export default function Slider({ content, button, onClick }: SliderState) {
 
       if (pictureRightPosition > sliderRightPosition) {
         setTimeout(() => {
-          //onClick();
+          window.open("https://www.decathlon.ch/de/");
         }, 500);
       }
 
